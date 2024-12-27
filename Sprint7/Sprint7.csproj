@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="img\heart.png" />
+    <None Remove="img\plus.png" />
+    <None Remove="img\spiderman.jpg" />
+    <None Remove="img\spiderman2.jpg" />
+    <None Remove="img\star.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\heart.png" />
+    <Resource Include="img\plus.png" />
+    <Resource Include="img\spiderman.jpg" />
+    <Resource Include="img\spiderman2.jpg" />
+    <Resource Include="img\star.png" />
+  </ItemGroup>
+
+</Project>
